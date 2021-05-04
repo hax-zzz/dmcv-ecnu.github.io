@@ -1,0 +1,397 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: # Welcome to our DMCV!
+    text: Welcome to DMCV! # It's Nice To Meet You
+    button: Tell Me More
+    buttonlink: "#researches"
+
+  researches:
+    title: "研究方向"
+    text: "RESEARCHES"
+    section: researches
+    list:
+      - title: "低层视觉"
+        desc: "图像复原（主要包括JPEG、Blurring、SR、White Noise、Haze）"
+        icon: fas fa-low-vision #find more at https://fontawesome.com/icons
+      - title: "2D感知"
+        desc: "视频和图像分析与理解（主要包括超高分辨率图像语义分割、跨模态行人重识别、视频和图像异常检测），深度网络压缩与加速（结构CNN剪枝、量化超分网络）"
+        icon: fas fa-images
+      - title: "3D感知"
+        desc: "三维点云分析（主要包括形状识别、室内场景语义分割、面向自动驾驶的大规模点云语义分割和检测）"
+        icon: fas fa-camera
+
+  papers:
+     title: "论著"
+     text: "PAPERS"
+     section: papers
+     list_journal:
+      - title: "On Unifying Multi-View Self-Representation for Clustering by Tensor Multi-Rank Minimization"
+        author: "Yuan Xie, Dacheng Tao, Wensheng Zhang, Yan Liu, Lei Zhang, Yanyun Qu"
+        publication: "International Journal of Computer Vision (IJCV), 2018"
+      - title: "Generalized Latent Multi-View Subspace Clustering"
+        author: "Changqing Zhang, Huazhu Fu, Qinghua Hu, Xiaochun Chao, Yuan Xie, Dacheng Tao, Dong Xu"
+        publication: "IEEE Trans. on Pattern Analysis and Machine Intelligence (IEEE TPAMI), 2020" 
+      - title: "Colored Fused Filament Fabrication"
+        author: "Haichuan Song, Jonas Martinez, Pierre Bedell, Noemie Vennin, Sylvain Lefebvre"
+        publication: "ACM Transactions on Graphics (ACM TOG), 2019"
+      - title: "Joint Deep Multi-View Learning for Image Clustering"
+        author: "Yuan Xie, Bingqian Lin, Yanyun Qu, Cuihua Li, Wensheng Zhang, Lizhuang Ma, Yonggang Wen, Dacheng Tao"
+        publication: "IEEE Trans. on Knowledge and Data Engineering (IEEE TKDE), 2020"
+      - title: "Robust Kernelized Multi-View Self-Representation for Subspace Clustering"
+        author: "Yuan Xie, Jinyan Liu, Yanyun Qu, Dacheng Tao, Wensheng Zhang, Longquan Dai, Lizhuang Ma"
+        publication: "IEEE Trans. on Neural Networks and Learning Systems (IEEE TNNLS), 2020"
+      - title: "Tensor Multi-task Learning for Person Re-identification"
+        author: "Zhizhong Zhang*, Yuan Xie*, Yongqiang Tang, Wensheng Zhang, Qi Tian"
+        publication: "IEEE Trans. on Image Processing (IEEE TIP), 2019"
+      - title: "Learning to Align via Wasserstein for Person Re-Identification"
+        author: "Zhizhong Zhang*, Yuan Xie*, Yongqiang Tang, Wensheng Zhang, Qi Tian"
+        publication: "IEEE Trans. on Image Processing (IEEE TIP), 2020"
+      - title: "Hyper-Laplacian Regularized Multilinear Multiview Self-Representation for Clustering and Semisupervised Learning"
+        author: "Yuan Xie, Dacheng Tao, Yanyun Qu, Wensheng Zhang, Longquan Dai"
+        publication: "IEEE Trans. on Cybernetics, 2020"
+      - title: "Effective Image Retrieval via Multilinear Multi-Index Fusion"
+        author: "Zhizhong Zhang*, Yuan Xie*, Wensheng Zhang, Qi Tian"
+        publication: "IEEE Trans. on Multimedia (IEEE TMM), 2019"
+      - title: "Tensor Multi-Elastic Kernel Self-Paced Learning for Time Series Clustering"
+        author: "Yongqiang Tang*, Yuan Xie*, Xuebing Yang, Jinghao Niu, Wensheng Zhang"
+        publication: "IEEE Trans. on Knowledge and Data Engineering (IEEE TKDE), 2019"
+     list_conference:
+      - title: "Boundary-Aware Geometric Encoding for Semantic Segmentation of Point Clouds"
+        author: "Jingyu Gong, Jiachen Xu, Xin Tan, Jie Zhou, Yanyun Qu, Yuan Xie*, Lizhuang Ma"
+        publication: "AAAI, 2021"
+      - title: "Weakly Supervised Semantic Segmentation for Large-Scale Point Cloud"
+        author: "Yachao Zhang, Zonghao Li, Yuan Xie*, Yanyun Qu, Cuihua Li, Tao Mei"
+        publication: "AAAI, 2021"
+      - title: "LatticeNet: Towards Lightweight Image Super-resolution with Lattice Block"
+        author: "Xiaotong Luo*, Yuan Xie*, Yulun Zhang, Yanyun Qu, Cuihua Li, Yun Fu"
+        publication: "ECCV, 2020"
+      - title: "Latent Regularized Generative Dual Adversarial Network for Abnormal Detection"
+        author: "Chengwei Chen, Jing Liu, Yuan Xie*, Yinxiao Ban, Chunyun Wu, Yiqing Tao, Haichuan Song"
+        publication: "IJCAI, 2020"
+      - title: "Meta Segmentation Network for Ultra-Resolution Medical Image"
+        author: "Tong Wu, Bicheng Dai, Shuxing Chen, Yanyun Qu, Yuan Xie*"
+        publication: "IJCAI, 2020"
+      - title: "SceneEncoder: Scene-Aware Semantic Segmentation of Point Clouds with Learnable Scene Descriptor"
+        author: "Jiacheng Xu, Jingyu Gong, Jie Zhou, Xin Tan, Yuan Xie*, Lizhuang Ma*"
+        publication: "IJCAI, 2020"
+      - title: "Distill Image Dehazing with Heterogeneous Task Imitation"
+        author: "Ming Hong* , Yuan Xie* , Cuihua Li, Yanyun Qu"
+        publication: "CVPR, 2020"
+      - title: "Hierarchical Knowledge Squeezed Adversarial Network Compression"
+        author: "Peng Li, Changyong Shu, Yuan Xie* , Yanyun Qu, Hui Kong"
+        publication: "AAAI, 2020"
+      - title: "Patch Proposal Network for Fast Semantic Segmentation of High-Resolution Images"
+        author: "Tong Wu, Zhenzhen Lei, Bingqian Lin, Cuihua Li, Yanyun Qu, Yuan Xie*"
+        publication: "AAAI, 2020"
+      - title: "Enhanced Pix2pix Dehazing Network"
+        author: "Yanyun Qu, Yizi Chen, Jingying Huang, Yuan Xie*"
+        publication: "CVPR, 2019"
+      - title: "Joint-Attention Discriminator for Accurate Super-Resolution via Adversarial Training"
+        author: "Rong Chen*, Yuan Xie*, Xiaotong Luo, Yanyun Qu, Cuihua Li"
+        publication: "ACM MM, 2019"
+
+  news:
+    title: "新闻"
+    text: "NEWS"
+    section: news
+    closebutton: "Close Project"
+
+  timeline:
+    title: "关于我们的故事"
+    text: "ABOUT OUR STORY"
+    section: timeline
+    # left is the default
+    start_align: "left"
+    events:
+      # - title: "Our Humble Beginnings"
+      #   year: "2009-2011"
+      #   desc: "Yuan Xie, Dacheng Tao, Wensheng Zhang, Yan Liu, Lei Zhang, Yanyun Qu. On Unifying Multi-View Self-Representation for Clustering by Tensor Multi-Rank Minimization. International Journal of Computer Vision (IJCV), 2018."
+      #   image: assets/img/timeline/1.jpg
+      #   alt:
+      # - title: "An Agency is Born"
+      #   year: "March 2011"
+      #   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      #   image: assets/img/timeline/2.jpg
+      #   alt:
+      # - title: "Jekyll Theme is created"
+      #   year: "2019"
+      #   desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+      #   image: assets/img/timeline/3.jpg
+      #   alt: image alt text
+      - title: "Start!"
+        year: "2021-4-9-1:01"
+        desc: "Your description here, **Markdown** is fully supported."
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+
+    end: "Be Part <br> of Our <br> Story!"
+
+  about:
+    title: "About Us"
+    text: "our story"
+    section: about
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      # - title: "envato"
+      #   url: https://github.com/raviriley/agency-jekyll-theme
+      #   logo: assets/img/clients/envato.jpg
+      # - title: "designmodo"
+      #   url: https://github.com/raviriley/agency-jekyll-theme
+      #   logo: assets/img/clients/designmodo.jpg
+      # - title: "themeforest"
+      #   url: https://github.com/raviriley/agency-jekyll-theme
+      #   logo: assets/img/clients/themeforest.jpg
+      # - title: "Creative Market"
+      #   url: https://github.com/raviriley/agency-jekyll-theme
+      #   logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: "团队成员"
+    text: "TEAM MEMBER"
+    # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: team
+    people:
+      - name: "谢源"
+        role: "教授/博导"
+        image: assets/img/team/xieyuan.png
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter #find more at https://fontawesome.com/icons
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+          - url: https://www.qq.com/
+            icon: fab fa-qq
+      - name: "林绍辉"
+        role: "副教授/青年紫江学者"
+        image: assets/img/team/linshaohui.png
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+          - url: https://www.qq.com/
+            icon: fab fa-qq
+      - name: "张志忠"
+        role: "副研究员"
+        image: assets/img/team/zhangzhizhong.png
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+          - url: https://www.qq.com/
+            icon: fab fa-qq
+
+  contact:
+    title: "联系我们"
+    text: "CONTACT US"
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
+
+  footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Spanish
+# -------
+# es: &DEFAULT_ES
+#   header:
+#     title: ¡Bienvenido a nuestro Estudio!
+#     text: Es un placer conocerle
+#     button: Ver más
+#     buttonlink: "#servicios"
+
+#   services:
+#     title: "Servicios"
+#     text: "Lorem ipsum"
+#     section: servicios
+#     list:
+#       - title: "Comercio Electrónico"
+#         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+#         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+#       - title: "Diseño Responsivo"
+#         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+#         icon: fas fa-laptop
+#       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+#         desc: "Su descripción aquí, soporte completo de **Markdown**"
+#         icon: fab fa-markdown
+
+#   portfolio:
+#     title: "Portafolio"
+#     text: "Lorem ipsum dolor sit amet consectetur."
+#     section: portafolio
+#     closebutton: "Cerrar Proyecto"
+
+#   timeline:
+#     title: "Cronología"
+#     text: "Lorem ipsum timeline"
+#     section: cronologia
+#     # left is the default
+#     #start_align: "left"
+#     events:
+#       - title: "Nuestro Humilde Comienzo"
+#         year: "2009-2011"
+#         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+#         image: assets/img/timeline/1.jpg
+#         alt:
+#       - title: "Una Agencia nace"
+#         year: "March 2011"
+#         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+#         image: assets/img/timeline/2.jpg
+#         alt:
+#       - title: "La plantilla Jekyll es creada"
+#         year: "2019"
+#         desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
+#         image: assets/img/timeline/3.jpg
+#         alt: image alt text
+#       - title: "Título"
+#         year: "2009-2011"
+#         desc: "Su descripción aquí, **Markdown** es soportado completamente."
+#         image: assets/img/timeline/4.jpg
+#         alt:
+#         # you can enforce the alignment
+#         align: right
+#     end: "¡Se parte <br> de Nuestra <br> Historia!"
+
+#   about:
+#     title: "Sobre nosotros"
+#     text: "nuestra historia"
+#     section: nosotros
+
+#   clients:
+#     section: clientes
+#     max-height: 100px
+#     horizontal-scrolling: "" #"yes/no"
+#     list:
+#       - title: "envato"
+#         url: https://github.com/raviriley/agency-jekyll-theme
+#         logo: assets/img/clients/envato.jpg
+#       - title: "designmodo"
+#         url: https://github.com/raviriley/agency-jekyll-theme
+#         logo: assets/img/clients/designmodo.jpg
+#       - title: "themeforest"
+#         url: https://github.com/raviriley/agency-jekyll-theme
+#         logo: assets/img/clients/themeforest.jpg
+#       - title: "Creative Market"
+#         url: https://github.com/raviriley/agency-jekyll-theme
+#         logo: assets/img/clients/creative-market.jpg
+
+#   team:
+#     title: "NUESTRO INCREÍBLE EQUIPO"
+#     text: "Lorem ipsum dolor sit amet consectetur."
+#     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+#     section: equipo
+#     people:
+#       - name: "Kay Garland"
+#         role: "Lead Designer"
+#         image: assets/img/team/500x500.jpg
+#         social:
+#           - url: https://twitter.com
+#             icon: fab fa-twitter
+#           - url: https://facebook.com
+#             icon: fab fa-facebook-f
+#           - url: https://linkedin.com
+#             icon: fab fa-linkedin-in
+#       - name: "Larry Parker"
+#         role: "Lead Marketer"
+#         image: assets/img/team/2.jpg
+#         social:
+#           - url: https://twitter.com
+#             icon: fab fa-twitter
+#           - url: https://facebook.com
+#             icon: fab fa-facebook-f
+#           - url: https://linkedin.com
+#             icon: fab fa-linkedin-in
+#       - name: "Diana Perterson"
+#         role: "Lead Developer"
+#         image: assets/img/team/500x500.jpg
+#         social:
+#           - url: https://twitter.com
+#             icon: fab fa-twitter
+#           - url: https://facebook.com
+#             icon: fab fa-facebook-f
+#           - url: https://linkedin.com
+#             icon: fab fa-linkedin-in
+
+#   contact:
+#     title: "Contáctenos"
+#     text: "Lorem ipsum or call 123456789"
+#     section: contacto
+#     name: "Nombre*"
+#     name-validation: "Por favor ingrese su nombre."
+#     email: "Correo Electrónico*"
+#     email-validation: "Por favor ingrese su correo electrónico."
+#     phone: "Número Telefónico*"
+#     phone-validation: "Por favor ingrese su número telefónico."
+#     message: "Mensaje*"
+#     message-validation: "Por favor escriba un mensaje."
+#     subject: "Envío del formulario de contacto"
+#     submit: "Enviar Mensaje"
+
+#   footer:
+#     legal: "Política de Privacidad"
+#     social:
+#       - url: https://twitter.com
+#         icon: "fab fa-twitter"
+#       - url: https://facebook.com
+#         icon: "fab fa-facebook-f"
+#       - url: https://linkedin.com
+#         icon: "fab fa-linkedin-in"
+#       - url: https://github.com/raviriley/agency-jekyll-theme
+#         icon: "fab fa-github"
+#       - url: https://instagram.com
+#         icon: "fab fa-instagram"
+# es-ES:
+#   <<: *DEFAULT_ES
+# es-CO:
+#   <<: *DEFAULT_ES
