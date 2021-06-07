@@ -1,0 +1,77 @@
+<!-- Papers -->
+<section class="page-section" id="{{ site.data.sitetext[site.locale].papers.section | default: "papers" }}">
+    <div class="container">
+	
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].papers.title | default: "Papers" }}</h2>
+          {% if site.data.sitetext[site.locale].papers.text %}
+		  <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].papers.text }}</h3>
+		  {% endif %}
+        </div>
+      </div>
+     
+      
+      <hr/><h2><div class="section-heading text-uppercase"><font color="#FF0000"> {{ "News：" | markdownify }}</font></div></h2>
+                {% for papers in site.data.sitetext[site.locale].papers.list_news %}
+       <div class="item">
+            {% if papers.title %}
+	          <p align="left">
+                <font size="4"><b>{{ papers.title }}</b></font>
+            </p>
+            {% endif %}
+      </div>
+          {% endfor %}
+
+
+
+	  
+      <hr/><h2><div class="section-heading text-uppercase">{{ "团队近期代表性顶级期刊论文：" | markdownify }}</div></h2>
+	  {% for papers in site.data.sitetext[site.locale].papers.list_journal %}
+        <div class="item">
+            {% if papers.title %}
+            <p align="left">
+                <font size="4"><b>{{ papers.title }}</b></font>
+            </p>
+            {% endif %}
+            
+            {% if papers.author %}
+            <p align="left">
+                <i>{{ papers.author }}</i>
+            </p>
+            {% endif %}
+
+            {% if papers.publication %}
+            <p align="left">
+                <font color="#336199"><font size="3">{{ papers.publication }}</font></font>
+            </p>
+            {% endif %}
+        </div>       
+	  {% endfor %}
+
+      <br><hr/><h2><div class="section-heading text-uppercase">{{ "团队近期代表性顶级会议论文：" | markdownify }}</div></h2>
+      {% for papers in site.data.sitetext[site.locale].papers.list_conference %}
+        <div class="item">
+            {% if papers.title %}
+            <p align="left">
+                <font size="4"><b>{{ papers.title }}</b></font>
+            </p>
+            {% endif %}
+            
+            {% if papers.author %}
+            <p align="left">
+                <i>{{ papers.author }}</i>
+            </p>
+            {% endif %}
+
+            {% if papers.publication %}
+            <p align="left">
+                <font color="#336199"><font size="3">{{ papers.publication }}</font></font>
+            </p>
+            {% endif %}
+        </div>       
+	  {% endfor %}
+	  
+    </div>
+  </section>
+<!-- End Papers -->

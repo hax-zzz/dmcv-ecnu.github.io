@@ -30,6 +30,12 @@ en: &DEFAULT_EN
       - title: "3D感知"
         desc: "三维点云分析（主要包括形状识别、室内场景语义分割、面向自动驾驶的大规模点云语义分割和检测）"
         icon: fas fa-camera
+  paper_news:
+     title: "News"
+     section: "news"
+     list_news:
+      - title: "4 papers Have Been Accepted by IJCAI 2021!"
+      - title: "4 Papers Have Been Accepted by CVPR 2021!" 
 
   papers:
      title: "论著"
