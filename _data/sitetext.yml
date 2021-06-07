@@ -35,6 +35,9 @@ en: &DEFAULT_EN
      title: "论著"
      text: "PAPERS"
      section: papers
+     list_news:
+      - title "4 papers Have Been Accepted by IJCAI 2021!"
+      - title "4 Papers Have Been Accepted by CVPR 2021!" 
      list_journal:
       - title: "On Unifying Multi-View Self-Representation for Clustering by Tensor Multi-Rank Minimization"
         author: "Yuan Xie, Dacheng Tao, Wensheng Zhang, Yan Liu, Lei Zhang, Yanyun Qu"
