@@ -21,6 +21,7 @@ email      : 995621499@qq.com # this is also the email contact forms will go to
 description: >-
     多媒体与视觉实验室（DMCV）是华东师范大学计算机与科学技术学院下的一个研究型实验室，研究方向主要包括低层视觉、2D感知（视频和图像理解）、3D感知（三维点云分析，目标检测）。
 author     : Jiangming Wang
+baidu-site-verification: code-f4PNwnWZUy
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
