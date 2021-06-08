@@ -219,8 +219,8 @@ en: &DEFAULT_EN
     # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "谢源"
-        role: "教授/博导"
+      - name: "Yuan Xie"
+        role: "Professor"
         image: assets/img/team/xieyuan.png
         social:
           - url: https://twitter.com
@@ -231,8 +231,8 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
           - url: https://www.qq.com/
             icon: fab fa-qq
-      - name: "林绍辉"
-        role: "副教授/青年紫江学者"
+      - name: "Shaohui Lin"
+        role: "Research Scholar"
         image: assets/img/team/linshaohui.png
         social:
           - url: https://twitter.com
@@ -243,8 +243,8 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
           - url: https://www.qq.com/
             icon: fab fa-qq
-      - name: "张志忠"
-        role: "副研究员"
+      - name: "Zhizhong Zhang"
+        role: "Associate Research Scholar"
         image: assets/img/team/zhangzhizhong.png
         social:
           - url: https://twitter.com
