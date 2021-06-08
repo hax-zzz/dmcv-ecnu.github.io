@@ -17,31 +17,32 @@ en: &DEFAULT_EN
     buttonlink: "#researches"
 
   researches:
-    title: "研究方向"
+    title: "Directions"
     text: "RESEARCHES"
     section: researches
     list:
-      - title: "低层视觉"
-        desc: "图像复原（主要包括JPEG、Blurring、SR、White Noise、Haze）"
+      - title: "Low-level Vision"
+        desc: "DeblurrinG, Super Resolution, Denoise, Dehaze"
         icon: fas fa-low-vision #find more at https://fontawesome.com/icons
-      - title: "2D感知"
-        desc: "视频和图像分析与理解（主要包括超高分辨率图像语义分割、跨模态行人重识别、视频和图像异常检测），深度网络压缩与加速（结构CNN剪枝、量化超分网络）"
+      - title: "2D Perception"
+        desc: "Video & Image Understanding(Cross-modality person Re-id, Abnormal detection)， Network Compression"
         icon: fas fa-images
-      - title: "3D感知"
-        desc: "三维点云分析（主要包括形状识别、室内场景语义分割、面向自动驾驶的大规模点云语义分割和检测）"
+      - title: "3"
+        desc: "Point Clouds Anaysis （Shape recognition, Semantic segmentation, Detection）"
         icon: fas fa-camera
 
   notices:
-     title: "公告"
+     title: "News"
      text: "NOTICES"
      section: notices
      list_news: 
+      - title: "Congratulations! 1 Paper Has Been Accepted by MICCAI 2021!"
       - title: "Congratulations! 4 Papers Have Been Accepted by IJCAI 2021!"
       - title: "Congratulations! 4 Papers Have Been Accepted by CVPR 2021!" 
   
 
   papers:
-     title: "论著"
+     title: "Selected Publications"
      text: "PAPERS"
      section: papers
 #     list_news:
@@ -80,6 +81,10 @@ en: &DEFAULT_EN
         author: "Yongqiang Tang*, Yuan Xie*, Xuebing Yang, Jinghao Niu, Wensheng Zhang"
         publication: "IEEE Trans. on Knowledge and Data Engineering (IEEE TKDE), 2019"
      list_conference:
+      - title: "Tensor-based Multi-index Representation Learning for Major Depression Disorder Detection with Resting-state FMRI"
+        author: "Dongren Yao, ErKun Yang, Hao Guan, Jing Sui, Zhizhong Zhang*, Mingxia Liu*"
+        publication: "Medical Image Computing and Computer Assisted Intervention (MICCAI), 2021"
+        new: True
       - title: "Novelty Detection via Contrastive Learning with Negative Data Augmentation"
         author: "Chengwei Chen, Shaohui Lin, Xin Tan, Ruizhi Qiao, Jian Zhou, Yi Zhang, Yuan Xie*, Lizhuang Ma*"
         publication: "International Joint Conference on Artificial Intelligence, 2021"
