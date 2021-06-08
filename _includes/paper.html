@@ -47,6 +47,13 @@
                 <font color="#336199"><font size="3">{{ papers.publication }}</font></font>
             </p>
             {% endif %}
+
+            {% if papers.url %}
+            <p align="left">
+                <!-- <font color="#336199"><font size="3">{{ <a href=papers.url>"pdf"</a> }}</font></font> -->
+                <a href="{{ papers.url }}">pdf</a>
+            </p>
+            {% endif %}
         </div>       
 	  {% endfor %}
 
@@ -72,6 +79,13 @@
             {% if papers.publication %}
             <p align="left">
                 <font color="#336199"><font size="3">{{ papers.publication }}</font></font>
+            </p>
+            {% endif %}
+
+            {% if papers.url %}
+            <p align="left">
+                <!-- <font color="#336199"><font size="3">{{ <a href=papers.url>"pdf"</a> }}</font></font> -->
+                <a href="{{ papers.url }}">pdf</a>
             </p>
             {% endif %}
         </div>       

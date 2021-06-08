@@ -41,9 +41,9 @@ en: &DEFAULT_EN
   
 
   papers:
-#     title: "论著"
-#     text: "PAPERS"
-#     section: papers
+     title: "论著"
+     text: "PAPERS"
+     section: papers
 #     list_news:
 #      - title: "Congratulations! 4 papers Have Been Accepted by IJCAI 2021!"
 #      - title: "Congratulations! 4 Papers Have Been Accepted by CVPR 2021!"
@@ -51,6 +51,7 @@ en: &DEFAULT_EN
       - title: "On Unifying Multi-View Self-Representation for Clustering by Tensor Multi-Rank Minimization"
         author: "Yuan Xie, Dacheng Tao, Wensheng Zhang, Yan Liu, Lei Zhang, Yanyun Qu"
         publication: "International Journal of Computer Vision (IJCV), 2018"
+        url: assets/paper/1610.07126.pdf
       - title: "Generalized Latent Multi-View Subspace Clustering"
         author: "Changqing Zhang, Huazhu Fu, Qinghua Hu, Xiaochun Chao, Yuan Xie, Dacheng Tao, Dong Xu"
         publication: "IEEE Trans. on Pattern Analysis and Machine Intelligence (IEEE TPAMI), 2020" 
@@ -79,6 +80,39 @@ en: &DEFAULT_EN
         author: "Yongqiang Tang*, Yuan Xie*, Xuebing Yang, Jinghao Niu, Wensheng Zhang"
         publication: "IEEE Trans. on Knowledge and Data Engineering (IEEE TKDE), 2019"
      list_conference:
+      - title: "Novelty Detection via Contrastive Learning with Negative Data Augmentation"
+        author: "Chengwei Chen, Shaohui Lin, Xin Tan, Ruizhi Qiao, Jian Zhou, Yi Zhang, Yuan Xie*, Lizhuang Ma*"
+        publication: "International Joint Conference on Artificial Intelligence, 2021"
+        new: True
+      - title: "Dual Reweighting Domain Generalization for Face Presentation Attack Detection"
+        author: "Shubao Liu#, Keyue Zhang#, Kekai Zhang, Shuohong Ding*, Ying Tai, Jilin Li, Yuan Xie, Lizhuang Ma"
+        publication: "International Joint Conference on Artificial Intelligence, 2021"
+        new: True
+      - title: "Learn from Concepts: Towards the Purified Memory for Few-Shot Learning"
+        author: "Xuncheng Liu#, Xudong Tian#, Shaohui Lin, Yanyun Qu, Wang Yuan, Zhizhong Zhang*, Yuan Xie*, Lizhuang Ma"
+        publication: "International Joint Conference on Artificial Intelligence, 2021"
+        new: True
+      - title: "Towards Compact Single Image Super-Resolution via Contrastive Self-distillation"
+        author: "Yanbo Wang, Shaohui Lin*, Yanyun Qu, Haiyan Wu, Zhizhong Zhang, Yuan Xie*, Angela Yao"
+        publication: "International Joint Conference on Artificial Intelligence, 2021"
+        new: True
+      - title: "Farewell to Mutual Information: Variational Distillation for Cross-Modal Person Re-Identification"
+        author: "Xudong Tian, Zhizhong Zhang*, Shaohui Lin, Yanyun Qu, Yuan Xie*, Lizhuang Ma"
+        publication: "IEEE Conference Computer Vision and Pattern Recognition, 2021(Oral)"
+        new: True
+      - title: "Contrastive Learning for Compact Single Image Dehazing"
+        author: "Haiyan Wu, Yanyun Qu, Jian Zhou, Ruizhi Qiao, Shaohui Lin*, Zhizhong Zhang, Yuan Xie*, Lizhuang Ma"
+        publication: "IEEE Conference Computer Vision and Pattern Recognition, 2021"
+        new: True
+      - title: "Omni-supervised Point Cloud Segmentation via Gradual Receptive Field Component Reasoning"
+        author: "Jingyu Gong, Jiachen Xu, Xin Tan, Perez Li, Haichuan Song, Yanyun Qu, Yuan Xie*, Lizhuang Ma*"
+        publication: "IEEE Conference Computer Vision and Pattern Recognition, 2021"
+        new: True
+      - title: "Discrete-continuous Action Space Policy Gradient-based Attention for Image-Text Matching"
+        author: "Shiyang Yan, Li Yu, Yuan Xie*"
+        publication: "IEEE Conference Computer Vision and Pattern Recognition, 2021"
+        new: True
+
       - title: "Boundary-Aware Geometric Encoding for Semantic Segmentation of Point Clouds"
         author: "Jingyu Gong, Jiachen Xu, Xin Tan, Jie Zhou, Yanyun Qu, Yuan Xie*, Lizhuang Ma"
         publication: "AAAI, 2021"
