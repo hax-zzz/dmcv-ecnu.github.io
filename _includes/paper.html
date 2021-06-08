@@ -25,7 +25,7 @@
       {% endfor %} -->
 
 
-      <br><hr/><h2><div class="section-heading text-uppercase">{{ "团队近期代表性顶级会议论文：" | markdownify }}</div></h2>
+      <br><hr/><h2><div class="section-heading text-uppercase">{{ "Selected Conference Papers：" | markdownify }}</div></h2>
       {% for papers in site.data.sitetext[site.locale].papers.list_conference %}
         <div class="item">
             {% if papers.title %}
@@ -60,7 +60,7 @@
 	  {% endfor %}
 
 	  
-      <hr/><h2><div class="section-heading text-uppercase">{{ "团队近期代表性顶级期刊论文：" | markdownify }}</div></h2>
+      <hr/><h2><div class="section-heading text-uppercase">{{ "Selected Journal Papers：" | markdownify }}</div></h2>
 	  {% for papers in site.data.sitetext[site.locale].papers.list_journal %}
         <div class="item">
             {% if papers.title %}
