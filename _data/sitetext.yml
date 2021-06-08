@@ -27,8 +27,8 @@ en: &DEFAULT_EN
       - title: "2D Perception"
         desc: "Video & Image Understanding(Cross-modality person Re-id, Abnormal detection)， Network Compression"
         icon: fas fa-images
-      - title: "3"
-        desc: "Point Clouds Anaysis （Shape recognition, Semantic segmentation, Detection）"
+      - title: "3D Point Clouds Anaysis"
+        desc: "Shape recognition, Semantic segmentation, Detection"
         icon: fas fa-camera
 
   notices:
