@@ -53,6 +53,7 @@ en: &DEFAULT_EN
         author: "Yuan Xie, Dacheng Tao, Wensheng Zhang, Yan Liu, Lei Zhang, Yanyun Qu"
         publication: "International Journal of Computer Vision (IJCV), 2018"
         url: assets/paper/1610.07126.pdf
+        urll: sitemap.txt
       - title: "Generalized Latent Multi-View Subspace Clustering"
         author: "Changqing Zhang, Huazhu Fu, Qinghua Hu, Xiaochun Chao, Yuan Xie, Dacheng Tao, Dong Xu"
         publication: "IEEE Trans. on Pattern Analysis and Machine Intelligence (IEEE TPAMI), 2020" 
