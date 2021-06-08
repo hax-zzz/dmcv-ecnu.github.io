@@ -12,25 +12,26 @@
       </div>
      
       
-      <hr/><h2><div class="section-heading text-uppercase"><font color="#FF0000"> {{ "News：" | markdownify }}</font></div></h2>
-                {% for papers in site.data.sitetext[site.locale].papers.list_news %}
-       <div class="item">
+      <!-- <hr/><h2><div class="section-heading text-uppercase"><font color="#FF0000"> {{ "News：" | markdownify }}</font></div></h2>
+      {% for papers in site.data.sitetext[site.locale].papers.list_news %}
+          <div class="item">
             {% if papers.title %}
 	          <p align="left">
                 <font size="4"><b>{{ papers.title }}</b></font>
             </p>
-            {% endif %}
+      {% endif %}
       </div>
-          {% endfor %}
+      {% endfor %} -->
 
 
-
-	  
-      <hr/><h2><div class="section-heading text-uppercase">{{ "团队近期代表性顶级期刊论文：" | markdownify }}</div></h2>
-	  {% for papers in site.data.sitetext[site.locale].papers.list_journal %}
+      <br><hr/><h2><div class="section-heading text-uppercase">{{ "团队近期代表性顶级会议论文：" | markdownify }}</div></h2>
+      {% for papers in site.data.sitetext[site.locale].papers.list_conference %}
         <div class="item">
             {% if papers.title %}
             <p align="left">
+                {% if papers.new %}
+                    <font style="font-family:Lucida Calligraphy"><font color="#FF0000"><font size="3"><b><sup>New</sup></b></font></font></font>
+                {% endif %}
                 <font size="4"><b>{{ papers.title }}</b></font>
             </p>
             {% endif %}
@@ -49,11 +50,15 @@
         </div>       
 	  {% endfor %}
 
-      <br><hr/><h2><div class="section-heading text-uppercase">{{ "团队近期代表性顶级会议论文：" | markdownify }}</div></h2>
-      {% for papers in site.data.sitetext[site.locale].papers.list_conference %}
+	  
+      <hr/><h2><div class="section-heading text-uppercase">{{ "团队近期代表性顶级期刊论文：" | markdownify }}</div></h2>
+	  {% for papers in site.data.sitetext[site.locale].papers.list_journal %}
         <div class="item">
             {% if papers.title %}
             <p align="left">
+                {% if papers.new %}
+                    <font style="font-family:Lucida Calligraphy"><font color="#FF0000"><font size="3"><b><sup>New</sup></b></font></font></font>
+                {% endif %}
                 <font size="4"><b>{{ papers.title }}</b></font>
             </p>
             {% endif %}

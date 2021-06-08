@@ -31,21 +31,22 @@ en: &DEFAULT_EN
         desc: "三维点云分析（主要包括形状识别、室内场景语义分割、面向自动驾驶的大规模点云语义分割和检测）"
         icon: fas fa-camera
 
-  paper_news:
-     title: "News"
-     section: paper_news
+  notices:
+     title: "公告"
+     text: "NOTICES"
+     section: notices
      list_news: 
       - title: "Congratulations! 4 Papers Have Been Accepted by IJCAI 2021!"
       - title: "Congratulations! 4 Papers Have Been Accepted by CVPR 2021!" 
   
 
   papers:
-     title: "论著"
-     text: "PAPERS"
-     section: papers
-     list_news:
-      - title: "4 papers Have Been Accepted by IJCAI 2021!"
-      - title: "4 Papers Have Been Accepted by CVPR 2021!" 
+#     title: "论著"
+#     text: "PAPERS"
+#     section: papers
+#     list_news:
+#      - title: "Congratulations! 4 papers Have Been Accepted by IJCAI 2021!"
+#      - title: "Congratulations! 4 Papers Have Been Accepted by CVPR 2021!"
      list_journal:
       - title: "On Unifying Multi-View Self-Representation for Clustering by Tensor Multi-Rank Minimization"
         author: "Yuan Xie, Dacheng Tao, Wensheng Zhang, Yan Liu, Lei Zhang, Yanyun Qu"

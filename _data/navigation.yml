@@ -13,6 +13,8 @@ en: &DEFAULT_EN
   nav:
     - title: "Researches"
       section: researches
+    - title: "Notices"
+      section: notices
     - title: "Papers"
       section: papers
     - title: "Codes" # "Theme Source"
